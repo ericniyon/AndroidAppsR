@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Golden RestoBar</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="YourName">one</string>
+    <string name="mainone_restobar_users_application">registration</string>
+    <string name="passw">Password</string>
+    <string name="login_inapp">Continue</string>
+    <string name="emailuser">Email</string>
+    <string name="add_dishone">Add Dish</string>
+    <string name="add_reciptone">Add Recipt</string>
+    <string name="view_dishall">View Dish</string>
+    <string name="view_reciptall">View Recipt</string>
+    <string name="changesone">Changes</string>
+    <string name="change_passworduser">Change Password</string>
+    <string name="change_profile_of_user">Change Profile</string>
+    <string name="search_dish">Search Dish</string>
+    <string name="login_account">login account</string>
+</resources>

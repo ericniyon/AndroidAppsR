@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/email"
+            android:icon="@drawable/emailvariant"
+            android:title="@string/emailuser" />
+        <item
+            android:id="@+id/adddish"
+            android:icon="@drawable/glasswine"
+            android:title="@string/add_dishone" />
+        <item
+            android:id="@+id/addrecept"
+            android:icon="@drawable/npm"
+            android:title="@string/add_reciptone" />
+        <item
+            android:id="@+id/viewdish"
+            android:icon="@drawable/icon"
+            android:title="@string/view_dishall" />
+        <item
+            android:id="@+id/viewrecept"
+            android:icon="@drawable/smalllogorestaurant1"
+            android:title="@string/view_reciptall" />
+    </group>
+
+    <item android:title="@string/changesone">
+        <menu>
+            <item
+                android:id="@+id/changepassword"
+                android:icon="@drawable/bordercolor"
+                android:title="@string/change_passworduser" />
+            <item
+                android:id="@+id/chengprofiles"
+                android:icon="@drawable/edit"
+                android:title="@string/change_profile_of_user" />
+        </menu>
+    </item>
+
+</menu>

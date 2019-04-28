@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/log1"
+        tools:targetApi="o" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heade"
+        android:hint="@string/YourName"
+        android:text="@string/mainone_restobar_users_application"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:inputType="text"
+        android:id="@+id/edt1"
+        android:hint="@string/login_account"
+        android:layout_marginHorizontal="@android:dimen/notification_large_icon_height"
+        android:layout_height="wrap_content" tools:targetApi="o"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tes2"
+        android:hint="@string/passw"
+        android:layout_marginHorizontal="@android:dimen/notification_large_icon_height"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" tools:targetApi="o" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bpt1"
+        android:text="@string/login_inapp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"
+        android:background="#C51162"
+        android:layout_marginStart="150dp" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"/>
+    <TextView
+        android:id="@+id/f1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
